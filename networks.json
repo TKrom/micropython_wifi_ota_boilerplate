@@ -1,0 +1,25 @@
+{
+	"schema": 2,
+	"known_networks": [
+		{
+			"ssid": "User\u2019s iPhone",
+			"password": "Password1",
+			"enables_webrepl": false
+		},
+		{
+			"ssid": "HomeNetwork",
+			"password": "Password2",
+			"enables_webrepl": true
+		}
+	],
+	"access_point": {
+		"config": {
+			"essid": "Micropython-Dev",
+			"channel": 11,
+			"hidden": false,
+			"password": "P@55W0rd"
+		},
+		"enables_webrepl": true,
+		"start_policy": "fallback"
+	}
+}
