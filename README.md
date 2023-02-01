@@ -10,6 +10,9 @@ require an active wifi connection and remote Over The Air (OTA) updates. Use thi
 4) Add custom project-specific code to the /app/start.py file. You can build your project in the MainApp class. Make sure that all code you write is **non-blocking**, i.e., allows the other processes (wifi-manager and OTA updater) to run concurrently.
 5) Enjoy your IoT device that will connect to specified WiFi stations and which can be managed and updated completely remotely. This is particularly useful for hard to reach remote applications.
 
+# Usage:
+In order to use the Over-The-Air (OTA) updates, just push your updates to your GitHub repo and make sure to also create a release with a suiting name e.g., "v0.0.1". Based on these releases, the device will decide to update and restart the device or not.
+
 # Credits
 This code is completely based on the work of:
 * @rdehuyss (https://github.com/rdehuyss/micropython-ota-updater)
