@@ -25,7 +25,7 @@ import network
 
 # Below must be an ordinary function (not asyncio)
 def connectToWifiAndUpdate():
-    import time, machine, network, gc, app.secrets as secrets
+    import time, machine, network, gc, # app.secrets as secrets
     print('Memory free', gc.mem_free())
 
     from app.ota_updater import OTAUpdater
