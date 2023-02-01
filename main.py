@@ -1,6 +1,3 @@
-# from wifi_manager import WifiManager
-# WifiManager.setup_network()
-
 # Change the github repo link below. This will be used for the OTA updates for your specific project.
 github_repo_link = "https://github.com/TKrom/micropython_wifi_ota_boilerplate"
 
